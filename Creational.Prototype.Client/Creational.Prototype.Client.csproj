@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{859F3356-70A2-4CB9-9FFA-E148E7513021}</ProjectGuid>
+    <ProjectGuid>{E52C0855-077A-45F8-A0EB-C4F6E00E48F7}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Creational.Builder.Client</RootNamespace>
-    <AssemblyName>Creational.Builder.Client</AssemblyName>
+    <RootNamespace>Creational.Prototype.Client</RootNamespace>
+    <AssemblyName>Creational.Prototype.Client</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -22,7 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Debug\Creational.Builder.Client.xml</DocumentationFile>
+    <DocumentationFile>bin\Debug\Creational.Prototype.Client.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -51,9 +51,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Creational.Builder.Entities\Creational.Builder.Entities.csproj">
-      <Project>{69cdc020-7168-4dbe-b3cb-f830b2e9c300}</Project>
-      <Name>Creational.Builder.Entities</Name>
+    <ProjectReference Include="..\Creational.Prototype.Entities\Creational.Prototype.Entities.csproj">
+      <Project>{ada845c7-db98-4ffb-b6d2-8319e9b961fb}</Project>
+      <Name>Creational.Prototype.Entities</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
